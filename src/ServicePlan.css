@@ -1,0 +1,48 @@
+.selection {
+  margin: 30px auto;
+  width: 80%;
+  height: 81px;
+  background: #f7f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.icon-plan-container {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+
+.music-icon {
+  margin-right: 10px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.plan-type,
+.price {
+  margin: 0;
+  font-size: 14px;
+}
+
+.plan-type {
+  color: black;
+  font-weight: 900;
+}
+
+.change-link {
+  color: #382ae1;
+  font-weight: bold;
+  font-size: 13px;
+  padding-right: 5%;
+}
+
+a:hover {
+  color: #766cf1;
+}

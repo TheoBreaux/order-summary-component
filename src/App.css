@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  padding: 10px;
+  background-color: #dfe6fb;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 15%;
+  background: white;
+  border-radius: 20px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}

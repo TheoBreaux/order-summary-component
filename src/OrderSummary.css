@@ -1,0 +1,17 @@
+.main {
+  background: white;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #1f2e55;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  color: #717fa6;
+  font-size: 15px;
+}
